@@ -28,7 +28,8 @@ The site highlights his proficiency in modern web technologies, including PHP, L
 1. Download or clone the project repository to your local machine.
 2. Ensure you have a web browser installed (e.g., Chrome, Firefox).
 3. Open the `index.html` file directly in your browser. No server setup is required as this is a static website.
-4. For development or customization, you can use any code editor like VS Code.
+4. If you prefer running it behind a local server (mirrors hosted behavior), install dependencies with `npm install` and start the site with `npm start` (defaults to port 3000 or uses `PORT` if provided).
+5. For development or customization, you can use any code editor like VS Code.
 
 ## Usage
 - Navigate the site using the fixed navigation menu on the left.
