@@ -1595,3 +1595,56 @@ section,
   background: var(--secondary-color);
   color: white;
 }
+
+/*--------------------------------------------------------------
+# Skill Icon Cards
+--------------------------------------------------------------*/
+.skill-icon {
+  width: 65px;
+  height: 65px;
+  border-radius: 14px;
+  background: #ffffff10;
+  backdrop-filter: blur(6px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 8px;
+  cursor: pointer;
+  transition: transform 0.35s, box-shadow 0.35s;
+  border: 1px solid #ffffff20;
+}
+
+.skill-icon:hover {
+  transform: scale(1.18) rotate(6deg);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.25);
+}
+
+.skill-icon img {
+  width: 34px;
+  height: 34px;
+  object-fit: contain;
+  transition: transform 0.3s;
+}
+
+.skill-icon:hover img {
+  transform: scale(1.25);
+}
+
+/*--------------------------------------------------------------
+# Contact Section Cards
+--------------------------------------------------------------*/
+.card {
+  transition: transform 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-6px);
+}
+
+/*--------------------------------------------------------------
+# Footer Arabic Quote
+--------------------------------------------------------------*/
+.footer-arabic {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
