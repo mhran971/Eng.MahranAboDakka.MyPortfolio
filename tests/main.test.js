@@ -4,10 +4,7 @@ const fs = require('node:fs');
 const path = require('node:path');
 const { JSDOM } = require('jsdom');
 
-const scriptPath = path.join(
-  '/home/runner/work/Eng.MahranAboDakka.MyPortfolio/Eng.MahranAboDakka.MyPortfolio',
-  'assets/js/main.js'
-);
+const scriptPath = path.resolve(__dirname, '../assets/js/main.js');
 const scriptContent = fs.readFileSync(scriptPath, 'utf8');
 
 function baseMarkup(extra = '') {
